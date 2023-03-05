@@ -48,6 +48,18 @@
     animation: float 5s ease-in-out infinite;
     font-family: 'Nanum Pen Script', cursive;
 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color:#e4edf1;
+    color: #dd7b22;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
+    padding: 10px 25px;
+    font-size: 24px;
+    font-style: italic;
+    width: 300px;
+    height: 90px;
+
 }
 
 .botao{
@@ -88,3 +100,9 @@
     
 }
 
+.b1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
